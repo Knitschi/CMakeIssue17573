@@ -13,7 +13,7 @@ HunterGate(
 project(MyProject)
 
 hunter_add_package(Qt)
-find_package(Qt5 5.5.1 CONFIG REQUIRED Core Gui Widgets Test)
+find_package(Qt5 5.5.1 CONFIG REQUIRED Core )
 
 add_library( mylib foo.cpp )
 
