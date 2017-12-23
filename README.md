@@ -1,4 +1,4 @@
-A CMake project that reproduces the problems that are described here
+A CMake project that reproduces the problems that are described here:
 
 https://gitlab.kitware.com/cmake/cmake/issues/17573
 
@@ -14,6 +14,5 @@ Note that the `cmake` step will take some time because it will download and comp
 using the hunter package manager. The `HUNTER_ROOT` variable must be set to a directory
 where hunter caches its packages.
 
-When doing this with CMake 3.9.6 the cmake call will run without errors. When running
-it with CMake 3.10 it will fail.
+Running this with CMake 3.9.6 will cause no errors. Running it with CMake 3.10 it will fail.
 
