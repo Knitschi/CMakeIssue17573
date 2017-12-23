@@ -3,6 +3,9 @@ cmake_minimum_required (VERSION 3.8.0)
 
 include("cmake/Hunter/HunterGate.cmake") 
 
+# Change this directory to define the location of the qt package
+set( HUNTER_ROOT "C:/Users/Knitschi/HunterPackages" CACHE PATH "The directory where the package manager will download and compile external packages." FORCE )
+
 HunterGate(
 	URL "https://github.com/ruslo/hunter/archive/v0.19.143.tar.gz"
 	SHA1 "a4ae4c9a11ea67ac70ae047afffa5003ebe8e9b1"
