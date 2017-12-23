@@ -7,7 +7,7 @@ https://gitlab.kitware.com/cmake/cmake/issues/17573
 ```bash
 git clone git@github.com:Knitschi/CMakeIssue17573.git
 cd CMakeIssue17573
-cmake -HSources -B_build -G"Visual Studio 14 2015 Win64" -DHUNTER_ROOT=<directory for qt package>
+cmake -H. -B_build -G"Visual Studio 14 2015 Win64" -DHUNTER_ROOT=<directory for qt package>
 ```
 
 Note that the `cmake` step will take some time because it will download and compile Qt
