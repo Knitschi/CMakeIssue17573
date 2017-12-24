@@ -14,5 +14,5 @@ Note that the `cmake` step will take some time because it will download and comp
 using the hunter package manager. The `HUNTER_ROOT` variable must be set to a directory
 where hunter caches its packages.
 
-Running this with CMake 3.9.6 will cause no errors. Running it with CMake 3.10 it will fail.
+Running this with CMake 3.9.6 will cause no errors. Running it with CMake 3.10 will fail.
 
